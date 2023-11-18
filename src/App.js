@@ -1,11 +1,11 @@
-import SearchBox from "./components/searchBox/SearchBox";
-import CardsContainer from "./components/cardsContainer/CardsContainer";
+// App.js
+import React from 'react';
+import QuiltedImageList from './QuiltedImageList';
 
 function App() {
   return (
     <div>
-      <SearchBox />
-      <CardsContainer />
+      <QuiltedImageList />
     </div>
   );
 }
